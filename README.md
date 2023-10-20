@@ -43,9 +43,6 @@ Setup content type and create few entries
 
 Get Space ID, Access Token and explore code examples.
 
-Space ID - uyniivyx5mup
-Access Token - EbiKMShE6QNaKssF8KH5oUYdMnF2O1G_TvP8WOVJ-\_s
-
 #### Install SDK
 
 - npm install contentful
