@@ -17,7 +17,7 @@ export const useFetchProjects = () => {
       const projects = response.items.map((item) => {
         const { title, url, image } = item.fields
         const id = item.sys.id
-        const img = item?.fields?.file?.url
+        const img = image?.fields?.file?.url
         return { title, url, id, img }
       })
       setProjects(projects)
